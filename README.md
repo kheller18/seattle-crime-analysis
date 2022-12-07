@@ -14,3 +14,6 @@ Python 3.10 and the following packages:
 * [numpy](https://numpy.org/install/) - This provides the ability to work with arrays and use different mathematical calculations on arrays.
 
 * [pandas](https://pandas.pydata.org/docs/) - For the analysis of crowdfunding data.
+
+## **Installation Guide**
+On the terminal, under the conda dev environment, install the following packages and dependencies before running the crime analysis application
