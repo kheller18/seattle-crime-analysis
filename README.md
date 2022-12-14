@@ -7,11 +7,11 @@
 
 ## Description
 
-  This jupyter notebook `main.pynb` file is an anaylsis of Seattle, Washington's crime data from the police department from 2008 through 2022. This project was developed to identify crime trends by date and by neighborhood. One can access total crime data and/or specific crimes, in the whole city and/or specific neighborhoods. This project was also created to identify changes in crime trends over time. Developers used `.csv` files along with many pandas libraries to clear and view graphs of the data. A new user could upload their own data and use these calculations to analyze it.
+  This jupyter notebook `main.pynb` file is an analysis of Seattle, Washington's crime data from the police department from 2008 through 2022. This project was developed to identify crime trends by date and by neighborhood. One can access total crime data and/or specific crimes, in the whole city and/or specific neighborhoods. This project was also created to identify changes in crime trends over time. Developers used `.csv` files along with many pandas libraries to clear and view graphs of the data. A new user could upload their own data and use these calculations to analyze it.
 
   ![application screenshot](Images/geoviews.png)
 
-  The notebook allows the user to access different timeframes like 2008, 2012, 2016 and 2020. When focusing on these individual years, the user can see a graph during these years of the types of crimes and see how particular crimes change seasonally or with current events.  An example is below focusing on the year 2012.
+  The notebook allows the user to access different timeframes like 2008, 2012, 2016 and 2020. When focusing on these individual years, the user can see a graph during these years of the types of crimes and see how particular crimes change seasonally or with current events.  An example is below focusing on the year 2016.
 
   ![application gif](Images/crime_by_type_2016.gif)
 
@@ -22,7 +22,7 @@
 
   ![application screenshot](Images/crime_overlay_2018_2020.png)
 
-  While the user is able to look zoom in to certain timeframes, this notebook offers other capabilities like looking at crime data over time. The user can view this data using an interactive plot to understand crime by type and there respective quantities over time.
+  While the user is able to look in to certain timeframes, this notebook offers other capabilities like looking at crime data over time. The user can view this data using an interactive plot to understand crime by type and their respective quantities over time.
 
   ![application gif](Images/crime_by_type_cumulative.gif)
 
@@ -36,9 +36,9 @@
 
   By combining all of these different views and data, the user can start to make some of their own conclusions and analyze what has gone on in Seattle and in the world over time. Some examples that we were able to find are:
 
-  1. When examining crime by type over time, "Bad Checks" hit its prime around 2010. Nowadays in 2022, there are few crimes for bad checks because checks have been phased out of society. In its place, we now have mobile services like Venmo, Zelle and cashapp that allow for instant transfers.
-  2. When examining crime by type over time, "Burlary" and "Assault" spiked to incredible numbers in the summer of 2020. If we take a look at current events at this time, COVID was in full force and so was the Capitol Hill Automous Zone (CHAZ). During this period, citizens patrolled the streets and broke into most businesses in the area, which spiked these categories numbers.
-  3. When examining the pie chart, we can see that over time assault, larceny-theft and motor vehicle theft are the most common crimes.
+  1. When examining crime by type over time, "Bad Checks" hit its prime around 2010. Nowadays in 2022, there are few crimes for bad checks because checks have been phased out of society. In its place, we now have mobile services like Venmo, Zelle, and Cashapp that allow for instant transfers.
+  2. When examining crime by type over time, "Burglary" and "Assault" spiked to incredible numbers in the summer of 2020. If we take a look at current events at this time, COVID was in full force and so was the Capitol Hill Autonomous Zone (CHAZ). During this period, citizens patrolled the streets and broke into most businesses in the area, which spiked these categories numbers.
+  3. When examining the pie chart, we can see that over time larceny-theft, assault, and burglary are the most common crimes.
 
 
 
@@ -61,7 +61,7 @@
   If you would like to clone the repository, type "git clone https://github.com/kheller18/seattle-crime-analysis.git".
   In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the crime analysis application. To understand how to install these, refer to the [Usage](#2-usage)
 
-  * [csv](https://docs.python.org/3/library/csv.html) -- Used to store all of our SPD data
+  * [csv](https://docs.python.org/3/library/csv.html) - Used to store all of our SPD data
 
   * [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) - *version 3.4.4* - Used to create and share documents that contain live code, equations, visualizations and narrative text.
 
@@ -80,7 +80,7 @@
 
 ## 2. Usage
 
-  After cloning the respository locally, you'll need to have the packages listed in [Installation](#1-installation) installed on your machine. To do so, you'll need to activate your conda dev environment and running the following commands:
+  After cloning the repository locally, you'll need to have the packages listed in [Installation](#1-installation) installed on your machine. To do so, you'll need to activate your conda dev environment and running the following commands:
 
       ```
       pip install pandas
@@ -145,6 +145,6 @@
 
   + [Keenan's LinkedIn](https://www.linkedin.com/in/keenanheller/)
   + [Olga's LinkedIn](https://www.linkedin.com/in/olga-ortega-82a15329)
-  + [Rachel's LinkedIn](https://www.linkedin.com/in/rachelannhodson/)
-  + [Ariana's LinkedIn](www.linkedin.com/in/ariana-moreno-52b2b7211)
   + [Audell's LinkedIn](https://www.linkedin.com/in/audell-sabeti-38375a1b2)
+  + [Ariana's LinkedIn](www.linkedin.com/in/ariana-moreno-52b2b7211)
+  + [Rachel's LinkedIn](https://www.linkedin.com/in/rachelannhodson/)
