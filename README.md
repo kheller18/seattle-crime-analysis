@@ -7,13 +7,41 @@
 
 ## Description
 
-  This jupyter notebook `main.pynb` file is an anaylsis of Seattle, Washington's crime data from the police department from 2008 through 2020. This project was developed to identify crime trends by date and by neighborhood. One can access total crime data and/or specific crimes, in the whole city and/or specific neighborhoods. This project was also created to identify changes in crime trends over time. Developers used `.csv` files along with many pandas libraries to clear and view graphs of the data. A new user could upload their own data and use these calculations to analyze it.
+  This jupyter notebook `main.pynb` file is an anaylsis of Seattle, Washington's crime data from the police department from 2008 through 2022. This project was developed to identify crime trends by date and by neighborhood. One can access total crime data and/or specific crimes, in the whole city and/or specific neighborhoods. This project was also created to identify changes in crime trends over time. Developers used `.csv` files along with many pandas libraries to clear and view graphs of the data. A new user could upload their own data and use these calculations to analyze it.
 
   ![application screenshot](Images/geoviews.png)
 
-  The notebook allows the user to access different timeframes like 2008, 2012, 2016 and 2020. When focusing on these individual years, the user can see a graph during these years of the types of crimes and see how particular crimes change seasonally or with current events.
+  The notebook allows the user to access different timeframes like 2008, 2012, 2016 and 2020. When focusing on these individual years, the user can see a graph during these years of the types of crimes and see how particular crimes change seasonally or with current events.  An example is below focusing on the year 2012.
 
-  ![application screenshot](Images/geoviews.png)
+  ![application gif](Images/crime_by_type_2016.gif)
+
+  Additionally, the notebook has graphs that overlay plots over the same timeframes. We took a look at two timeframes in particular: 2008-2010 and 2018-2020.
+  You can see both timeframes and their respective graphs below.
+
+  ![application screenshot](Images/crime_overlay_2008_2010.png)
+
+  ![application screenshot](Images/crime_overlay_2018_2020.png)
+
+  While the user is able to look zoom in to certain timeframes, this notebook offers other capabilities like looking at crime data over time. The user can view this data using an interactive plot to understand crime by type and there respective quantities over time.
+
+  ![application gif](Images/crime_by_type_cumulative.gif)
+
+  The user is also able to view total crimes per neighborhood in an interactive plot.
+
+  ![application gif](Images/crime_by_neighborhood_cumulative.gif)
+
+  Finally, the user is able to understand by analyzing a pie chart what percentage each type of crime in comparison to total crimes has taken place in Seattle from 2008-2022.
+
+  ![application screenshot](Images/pie_chart.png)
+
+  By combining all of these different views and data, the user can start to make some of their own conclusions and analyze what has gone on in Seattle and in the world over time. Some examples that we were able to find are:
+
+  1. When examining crime by type over time, "Bad Checks" hit its prime around 2010. Nowadays in 2022, there are few crimes for bad checks because checks have been phased out of society. In its place, we now have mobile services like Venmo, Zelle and cashapp that allow for instant transfers.
+  2. When examining crime by type over time, "Burlary" and "Assault" spiked to incredible numbers in the summer of 2020. If we take a look at current events at this time, COVID was in full force and so was the Capitol Hill Automous Zone (CHAZ). During this period, citizens patrolled the streets and broke into most businesses in the area, which spiked these categories numbers.
+  3. When examining the pie chart, we can see that over time assault, larceny-theft and motor vehicle theft are the most common crimes.
+
+
+
 ## Table of Contents
 
 - [Seattle Crime Analysis](#seattle-crime-analysis)
@@ -52,7 +80,19 @@
 
 ## 2. Usage
 
-  Please go to coming soon.
+  After cloning the respository locally, you'll need to have the packages listed in [1. Installation](#1-installation) installed on your machine. To do so, you'll need to activate your conda dev environment and running the following commands:
+
+      ```
+      pip install pandas
+      pip install hvplot
+      pip install jupyterlab
+      conda install -c pyviz hvplot
+      conda install -c voila
+      conda list nodejs
+
+      ```
+
+  After all of these are installed, please refer to the [6. Deployment](#6-deployment) section for instructions on how to view or edit the notebook.
 
 
 ## 3. License
@@ -92,17 +132,19 @@
 
 ## 5. Tests
 
-  There are currently no tests associated with this project.
+  + There are currently no tests associated with this project.
 
 
 ## 6. Deployment
-  + [Personal Website]()
+  + There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via two different ways:
+    + `Jupyter Lab`: Navigate to the root directory and type "jupyter lab main.ipynb"
+    + `Voilà`: Navigate to the root directory and type "voila main.ipynb"
 
 
 ## 7. Contact
 
   + [Keenan LinkedIn](https://www.linkedin.com/in/keenanheller/)
   + [Olga LinkedIn](https://www.linkedin.com/in/olga-ortega-82a15329)
-  + [Rachel LinkedIn](https://www.linkedin.com/in/keenanheller/)
+  + [Rachel LinkedIn](https://www.linkedin.com/in/rachelannhodson/)
   + [Ariana LinkedIn](www.linkedin.com/in/ariana-moreno-52b2b7211)
-  + [Audell LinkedIn](https://www.linkedin.com/in/keenanheller/)
+  + [Audell LinkedIn](https://www.linkedin.com/in/audell-sabeti-38375a1b2)
