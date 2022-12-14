@@ -143,8 +143,8 @@
 
 ## 7. Contact
 
-  + [Keenan LinkedIn](https://www.linkedin.com/in/keenanheller/)
-  + [Olga LinkedIn](https://www.linkedin.com/in/olga-ortega-82a15329)
-  + [Rachel LinkedIn](https://www.linkedin.com/in/rachelannhodson/)
-  + [Ariana LinkedIn](www.linkedin.com/in/ariana-moreno-52b2b7211)
-  + [Audell LinkedIn](https://www.linkedin.com/in/audell-sabeti-38375a1b2)
+  + [Keenan's LinkedIn](https://www.linkedin.com/in/keenanheller/)
+  + [Olga's LinkedIn](https://www.linkedin.com/in/olga-ortega-82a15329)
+  + [Rachel's LinkedIn](https://www.linkedin.com/in/rachelannhodson/)
+  + [Ariana's LinkedIn](www.linkedin.com/in/ariana-moreno-52b2b7211)
+  + [Audell's LinkedIn](https://www.linkedin.com/in/audell-sabeti-38375a1b2)
