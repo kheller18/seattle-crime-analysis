@@ -58,8 +58,8 @@
 
 ## 1. Installation
 
-  If you would like to clone the repository, type "git clone https://github.com/kheller18/seattle-crime-analysis.git"
-  On the terminal, under the conda dev environment, install the following packages and dependencies before running the crime analysis application
+  If you would like to clone the repository, type "git clone https://github.com/kheller18/seattle-crime-analysis.git".
+  In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the crime analysis application. To understand how to install these, refer to the [Usage](#2-usage)
 
   * [csv](https://docs.python.org/3/library/csv.html) -- Used to store all of our SPD data
 
@@ -80,7 +80,7 @@
 
 ## 2. Usage
 
-  After cloning the respository locally, you'll need to have the packages listed in [1. Installation](#1-installation) installed on your machine. To do so, you'll need to activate your conda dev environment and running the following commands:
+  After cloning the respository locally, you'll need to have the packages listed in [Installation](#1-installation) installed on your machine. To do so, you'll need to activate your conda dev environment and running the following commands:
 
       ```
       pip install pandas
@@ -92,7 +92,7 @@
 
       ```
 
-  After all of these are installed, please refer to the [6. Deployment](#6-deployment) section for instructions on how to view or edit the notebook.
+  After all of these are installed, please refer to the [Deployment](#6-deployment) section for instructions on how to view or edit the notebook.
 
 
 ## 3. License
