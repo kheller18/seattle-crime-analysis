@@ -32,7 +32,7 @@
 
   Finally, the user is able to understand by analyzing a pie chart what percentage each type of crime in comparison to total crimes has taken place in Seattle from 2008-2022.
 
-  ![application screenshot](Images/crimes_pie_chart.png)
+  ![application screenshot](Images/crime_pie_chart.png)
 
   By combining all of these different views and data, the user can start to make some of their own conclusions and analyze what has gone on in Seattle and in the world over time. Some examples that we were able to find are:
 
