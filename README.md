@@ -7,7 +7,7 @@
 
 ## Description
 
-  This jupyter notebook `main.pynb` file is an analysis of Seattle, Washington's crime data from the police department from 2008 through 2022. This project was developed to identify crime trends by date and by neighborhood. One can access total crime data and/or specific crimes, in the whole city and/or specific neighborhoods. This project was also created to identify changes in crime trends over time. Developers used `.csv` files along with many pandas libraries to clear and view graphs of the data. A new user could upload their own data and use these calculations to analyze it.
+  This jupyter notebook `main.pynb` file is an analysis of Seattle, Washington's crime data from the police department from 2008 through 2022. This project was developed to identify crime trends by date and by neighborhood. One can access total crime data and/or specific crimes, in the whole city and/or specific neighborhoods. This project was also created to identify changes in crime trends over time. Developers used `.csv` files along with many pandas libraries to clear and view graphs of the data. A new user could upload their own data and use these calculations to analyze it.  We were able to get our crime data from the [Seattle Government Open Data Website](https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5).
 
   ![application screenshot](Images/geoviews.png)
 
